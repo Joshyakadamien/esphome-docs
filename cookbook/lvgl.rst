@@ -1570,6 +1570,14 @@ The script runs at the beginning of every minute to update the line positions fo
 
     lvgl:
       ...
+      style_definitions:
+        - id: date_style
+          text_font: roboto10
+          align: center
+          text_color: 0x000000
+          bg_opa: cover
+          radius: 4
+          pad_all: 2
       pages:
         - id: clock_page
           widgets:
